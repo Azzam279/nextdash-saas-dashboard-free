@@ -2,7 +2,8 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LayoutDashboard, Users, BarChart3, Settings, Zap, X } from 'lucide-react';
+import { LayoutDashboard, Users, BarChart3, Settings, X } from 'lucide-react';
+import { BrandIcon } from '@/components/ui';
 
 interface NavItem {
   label: string;
@@ -38,9 +39,7 @@ export function Sidebar({ mobileOpen, onClose }: SidebarProps) {
       {/* Brand */}
       <div className="border-border flex h-15 shrink-0 items-center justify-between border-b px-4">
         <div className="flex items-center gap-2">
-          <div className="bg-brand flex h-7 w-7 items-center justify-center rounded-lg">
-            <Zap className="h-3.5 w-3.5 text-white" aria-hidden="true" />
-          </div>
+          <BrandIcon size={28} className="shadow-[0_4px_12px_rgba(13,148,136,0.3)]" priority />
           <span className="text-text-base text-sm font-semibold">NextDash</span>
           <span className="border-brand-border bg-brand-soft text-brand rounded border px-1.5 py-0.5 text-[10px] font-medium">
             Free

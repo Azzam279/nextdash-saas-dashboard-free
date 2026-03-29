@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="favicon-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A7F3D0" />
+      <stop offset="0.45" stop-color="#10B981" />
+      <stop offset="1" stop-color="#065F46" />
+    </linearGradient>
+    <linearGradient id="favicon-glyph" x1="16" y1="12" x2="47" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC" />
+      <stop offset="1" stop-color="#D1FAE5" />
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="18" fill="url(#favicon-bg)" />
+  <path d="M18.5 49V15H25.5L38.5 34.5V15H45.5V49H38.5L25.5 29.5V49H18.5Z" fill="url(#favicon-glyph)" />
+  <rect x="5" y="5" width="54" height="54" rx="15" stroke="white" stroke-opacity="0.14" stroke-width="1.5" />
+</svg>
