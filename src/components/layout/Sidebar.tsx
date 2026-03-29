@@ -82,7 +82,7 @@ export function Sidebar({ mobileOpen, onClose }: SidebarProps) {
           Unlock charts, Auth, RBAC, dark mode and more.
         </p>
         <a
-          href="https://github.com"
+          href="https://azzamtaq.gumroad.com/l/zzclvi"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary btn-sm w-full"

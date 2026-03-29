@@ -2,7 +2,7 @@
 
 A lightweight, open-source Next.js dashboard starter — no authentication, no RBAC, light mode only.
 
-> **Looking for more?** [NextDash Pro](https://github.com) adds authentication, role-based access control, dark mode, charts, advanced table filters, notifications, and more.
+> **Looking for more?** [NextDash Pro](https://azzamtaq.gumroad.com/l/zzclvi) adds authentication, role-based access control, dark mode, charts, advanced table filters, notifications, and more.
 
 ---
 

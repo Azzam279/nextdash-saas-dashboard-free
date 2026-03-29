@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { BarChart3 } from 'lucide-react';
-import { Button, Card } from '@/components/ui';
+import { Card } from '@/components/ui';
 
 export const metadata: Metadata = { title: 'Analytics' };
 
@@ -32,7 +32,14 @@ export default function AnalyticsPage() {
             </p>
           </div>
 
-          <Button variant="primary">Upgrade to Pro</Button>
+          <a
+            href="https://azzamtaq.gumroad.com/l/zzclvi"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-primary"
+          >
+            Upgrade to Pro
+          </a>
         </div>
       </Card>
     </div>
